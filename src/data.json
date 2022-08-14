@@ -1,0 +1,30 @@
+{
+  "user":[
+    {
+      "email":"admin@admin.com",
+      "password":"adminadmin"
+    },
+    {
+      "email":"user@user.com",
+      "password":"useruser"
+    }
+  ],
+
+  "questions":[
+    {
+      "id":1,
+      "question":"Dun ne yaptin?",
+      "answer":""
+    },
+    {
+      "id":2,
+      "question":"Bugun ne yapacaksin?",
+      "answer":""
+    },
+    {
+      "id":3,
+      "question":"Yarin ne yapmayi dusunuyorsun?",
+      "answer":""
+    }
+  ]
+}

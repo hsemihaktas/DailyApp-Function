@@ -1,0 +1,174 @@
+body{
+    background-color: hsl(0, 0%, 36%);
+}
+.form{
+    width: 100%;
+    height: 100%;
+    margin-top: 200px;
+    background-color: hwb(0 58% 41%) ;
+    border-radius: 50px;
+}
+.flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.addButton{
+    border: 1px solid black;
+    color: black;
+    border-radius: 50px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+.addButton:hover{
+    background-color: black;
+    color: white;
+}
+
+.deleteButton{
+    background-color: red;
+    border: none;
+    color: white;
+    border-radius: 50px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.deleteButton:hover{
+    background-color: black;
+    color: white;
+}
+
+.submitButton{
+    border: 2px solid black;
+    color: black;
+    border-radius: 50px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+.submitButton:hover{
+    background-color: black;
+    color: white;
+}
+
+.logoutButton{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    border: 2px solid black;
+    color: black;
+    border-radius: 50px;
+    padding: 10px 26px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: bolder;
+   
+}
+
+.input{
+    width: 500px;
+    height: 45px;
+    margin: 10px;
+    border-radius: 50px;
+    padding: 15px;
+    font-weight: bold;
+    border: 1px solid black;
+}
+
+.dangerInput{
+    width: 500px;
+    height: 45px;
+    margin: 10px;
+    border-radius: 50px;
+    padding: 15px;
+    font-weight: bold;
+    border: 1px solid red;
+}
+
+.dangerText{
+    color: red;
+    font-weight: bold;
+}
+
+.label{
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+
+.right{
+    float: right;
+    margin: 10px;
+}
+
+.black {
+    background-color: black;
+}
+
+.hidden-div{
+    background-color: rgba(0,0,0, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.hidden-div-content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border-radius: 50px;
+    padding: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+    display: flex;
+    align-items: center;
+}
+.loader {
+    border: 16px solid #f3f3f3;
+    border-top: 16px solid black;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    animation: spin 2s linear infinite;
+    margin: 25px;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+
+.notFound{
+    text-align: center;
+    font-size: 48px;
+    font-weight: bold;
+    color: red;
+}
